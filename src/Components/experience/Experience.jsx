@@ -7,11 +7,10 @@ const Experience = () => {
     <section id="experience">
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
-      <div className="container experience_container">
+      <div className="container-fluid experience_container">
         <div className="experience_frontend">
           <h3>Frontend Development</h3>
-          <div className="row">
-          <div className="experience_content col-6">
+          <div className="experience_content">
             <div className="experience_content_div ">
               <article className="experience_details">
                 <BsPatchCheckFill className="experience_details_icon" />
@@ -28,7 +27,7 @@ const Experience = () => {
                 </div>
               </article>
             </div>
-            <div className="experience_content_div  col-6">
+            <div className="experience_content_div">
               <article className="experience_details">
                 <BsPatchCheckFill className="experience_details_icon" />
                 <div>
@@ -44,7 +43,7 @@ const Experience = () => {
                 </div>
               </article>
             </div>
-            <div className="experience_content_div  col-6">
+            <div className="experience_content_div">
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details_icon" />
               <div>
@@ -54,7 +53,6 @@ const Experience = () => {
             </article>
             </div>
           </div>
-        </div>
         </div>
         <div className="experience_backend ">
           <h3>Backend Development</h3>

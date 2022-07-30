@@ -20,7 +20,7 @@
     background: transparent;
 }
 .portfolio_items_img{
-    width: 350px;
+    width:500px;
     height: max-content;
     border-radius: 25px;
     overflow: hidden;
@@ -33,3 +33,9 @@
     gap: 15px;
     margin-top: 75px;
 }
+
+@media screen and (max-width: 1024px) {
+    .portfolio_items_img{
+        width:90vw;
+    }
+  }
