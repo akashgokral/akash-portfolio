@@ -1,3 +1,7 @@
+#portfolio{
+    height: max-content !important;
+}
+
 .portfolio_container{
     display: flex;
     flex-direction: column;
@@ -22,10 +26,6 @@
     overflow: hidden;
 }
 
-.portfolio_items h3{
-    margin-top: 25px;
-    text-align: center;
-}
 .portfolio_items_btn{
     display: flex;
     justify-content: center;
