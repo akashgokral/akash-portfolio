@@ -1,0 +1,35 @@
+.portfolio_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.portfolio_items{
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+    transition: var(--transition);
+    background: black;
+}
+.portfolio_items:hover{
+    background: transparent;
+}
+.portfolio_items_img{
+    width: 350px;
+    height: max-content;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.portfolio_items h3{
+    margin-top: 25px;
+    text-align: center;
+}
+.portfolio_items_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 75px;
+}

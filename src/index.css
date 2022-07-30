@@ -94,12 +94,19 @@ section{
    
     section{
         margin-top: 6rem;
+        height: min-content;
     }
 }
 
 
 @media screen and (max-width:600px){
   
+
+  section{
+    margin-top: 6rem;
+    height: min-content;
+}
+
     section > h2 {
         margin-bottom: 2rem;
     }
