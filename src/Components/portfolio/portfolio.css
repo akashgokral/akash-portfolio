@@ -10,7 +10,6 @@
     gap: 25px;
 }
 .portfolio_items{
-    padding: 15px;
     border-radius: 25px;
     border: 1px solid white;
     transition: var(--transition);
@@ -20,7 +19,7 @@
     background: transparent;
 }
 .portfolio_items_img{
-    width:500px;
+    width:100%;
     height: max-content;
     border-radius: 25px;
     overflow: hidden;
@@ -31,11 +30,18 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-top: 75px;
+    margin-top: 35px;
+}
+.swiper-pagination-bullet{
+    background: grey !important;
+}
+.swiper-pagination-bullet-active {
+    background:white !important;
 }
 
 @media screen and (max-width: 1024px) {
+ 
     .portfolio_items_img{
-        width:90vw;
+        width:100%;
     }
   }
